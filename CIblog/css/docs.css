@@ -1,0 +1,428 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Bootstrap's documentation styles
+  Special styles for presenting Bootstrap's documentation and examples
+*/
+
+
+/* Body and structure
+-------------------------------------------------- 
+body {
+  position: relative;
+  padding-top: 90px;
+  background-color: #fff;
+  background-image: url(../img/grid-18px-masked.png);
+  background-repeat: repeat-x;
+  background-position: 0 40px;
+}
+*/
+
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+.navbar-fixed-top .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
+
+.front-card{
+position: absolute;
+left: 50%;
+top: 50%;
+height: 328px;
+width: 838px;
+margin: -154px 0 0 -418px;
+    
+}
+ 
+
+.front-welcome {
+position: absolute;
+top: 0;
+left: 0;
+display: block;
+width: 520px;
+height: 328px;
+}
+
+ 
+.front-welcome-text {
+position: absolute;
+bottom: 50%;
+left: 0;
+width: 470px;
+padding: 20px;
+font-size: 20px;
+font-weight: 300;
+line-height: 22px;
+color: #EEE;
+text-align: left;
+text-shadow: black 0 1px 2px;
+
+}
+
+.front-welcome-text h1 {
+margin-bottom: 3px;
+font-size: 20px;
+font-weight: 700;
+color: white;
+}
+.front-welcome-text p{
+font-size: 20px;
+font-weight: 300;
+line-height: 22px;
+color: #EEE;
+text-align: left;
+text-shadow: black 0 1px 2px;
+}
+
+.front-signin {
+position: absolute;
+top: 0;
+left: 536px;
+width: 300px;
+height: 108px;
+background: -webkit-linear-gradient(top,white 0,#DDD 100%);
+background: -moz-linear-gradient(top,white 0,#DDD 100%);
+background: -ms-linear-gradient(top,white 0,#DDD 100%);
+background: -o-linear-gradient(top,white 0,#DDD 100%);
+background: linear-gradient(top,white 0,#DDD 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd',GradientType=0);
+border-left: solid 1px #EEE;
+border-right: solid 1px #EEE;
+border-bottom: solid 1px #CCC;
+-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+-moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+border-radius: 4px;
+}
+
+.front-signin .username {
+position: absolute;
+top: 12px;
+left: 12px;
+width: 276px;
+color: #333;
+}
+
+.placeholding-input .placeholder {
+position: absolute;
+top: 1px;
+right: 1px;
+bottom: 1px;
+left: 2px;
+z-index: 1;
+height: 20px;
+padding: 4px;
+font-size: 13px;
+line-height: 20px;
+color: #999;
+white-space: nowrap;
+cursor: text;
+-webkit-transition: opacity .1s,font-size .1s;
+-moz-transition: opacity .1s,font-size .1s;
+-o-transition: opacity .1s,font-size .1s;
+-webkit-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+lable {
+ display: block;
+ margin-bottom: 5px;
+ font-family: Arial,sans-serif;
+}
+
+.flex-table-input {
+display: block;
+width: 100%;
+line-height: normal;
+height: 30px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+.front-signin .username .text-input {
+width: 266px;
+}
+
+.front-signin .password-signin {
+position: absolute;
+top: 48px;
+left: 12px;
+width: 276px;
+}
+.flex-table-secondary {
+width: 1%;
+max-width: 1%;
+}
+
+.flex-table-primary, .flex-table-secondary {
+vertical-align: top;
+}
+
+td, th {
+padding: 0;
+}
+user agent stylesheettd, th {
+display: table-cell;
+vertical-align: inherit;
+}
+
+
+.front-signin .submit {
+height: 30px;
+-webkit-box-shadow: 0 1px 0 white;
+-moz-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 white;
+}
+
+body.ms-windows, body.ms-windows label, body.ms-windows input, body.ms-windows textarea, body.ms-windows select, body.ms-windows button {
+font-family: Arial,sans-serif;
+}
+
+.flex-table-btn {
+float: right;
+width: auto;
+white-space: nowrap;
+}
+.primary-btn, .following.first-hover .follow-btn:hover, .following .follow-btn, .following .follow-button.cancel-hover-style:hover, .following .follow-button {
+color: white;
+text-shadow: 0 -1px 1px rgba(0, 0, 0, .25);
+background-color: #019AD2;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#33BCEF),to(#019AD2));
+background-image: -moz-linear-gradient(#33BCEF,#019AD2);
+background-image: -ms-linear-gradient(#33BCEF,#019AD2);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#33BCEF),color-stop(100%,#019AD2));
+background-image: -webkit-linear-gradient(#33BCEF,#019AD2);
+background-image: -o-linear-gradient(#33BCEF,#019AD2);
+background-image: linear-gradient(#33BCEF,#019AD2);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bcef',endColorstr='#019ad2',GradientType=0);
+border-color: #057ED0;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+.btn {
+/*background-color: #DDD;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(white),to(#DDD));
+background-image: -moz-linear-gradient(white,#DDD);
+background-image: -ms-linear-gradient(white,#DDD);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,white),color-stop(100%,#DDD));
+background-image: -webkit-linear-gradient(white,#DDD);
+background-image: -o-linear-gradient(white,#DDD);
+background-image: linear-gradient(white,#DDD);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd');
+*/}
+.btn {
+position: relative;
+display: inline-block;
+overflow: visible;
+padding: 5px 10px;
+font-size: 13px;
+font-weight: bold;
+line-height: 18px;
+/*color: #333;
+text-shadow: 0 1px 1px rgba(255, 255, 255, .5);*/
+/*background-color: #CCC;
+background-repeat: no-repeat;
+border: 1px solid #CCC;
+cursor: pointer;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+-moz-box-shadow: 0 1px 0 rgba(255,255,255,.5);
+box-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+background-image: -webkit-linear-gradient(#33BCEF,#019AD2);
+background-color: #019AD2;*/
+}
+.flex-table-primary {
+width: 99%;
+padding-right: 5px;
+}
+
+.front-signin .submit{
+  height: 30px;
+  -webit -box-shadow: 0 1px 0 white;
+  moz box-shadow:  0 1px 0 #fff;
+  box-shadow: 0 1px 0 white;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, .25);
+}
+
+.front-signin .remember-forgot {
+position: absolute;
+top: 82px;
+left: 12px;
+margin: 0;
+width: 276px;
+}
+
+.front-signin .remember, .front-signin .forgot, .front-signin .separator {
+display: inline;
+margin: 0;
+font-size: 11px;
+line-height: 13px;
+color: #999;
+-webkit-text-shadow: 0 1px 0 rgba(255,255,255,.6);
+-moz-text-shadow: 0 1px 0 rgba(255,255,255,.6);
+text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
+}
+
+.remember input {
+  display: inline;
+}
+
+.front-signup {
+position: absolute;
+top: 121px;
+left: 536px;
+width: 300px;
+height: 206px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.front-signin, .front-signup {
+background: white;
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,white),color-stop(100%,#DDD));
+background: -webkit-linear-gradient(top,white 0,#DDD 100%);
+background: -moz-linear-gradient(top,white 0,#DDD 100%);
+background: -ms-linear-gradient(top,white 0,#DDD 100%);
+background: -o-linear-gradient(top,white 0,#DDD 100%);
+background: linear-gradient(top,white 0,#DDD 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd',GradientType=0);
+border-left: solid 1px #EEE;
+border-right: solid 1px #EEE;
+border-bottom: solid 1px #CCC;
+-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+-moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+
+.front-signup h2 strong, .front-signin h2 strong {
+font-weight: 500;
+color: #333;
+}
+
+.front-signup h2, .front-signin h2 {
+position: relative;
+display: block;
+padding: 10px 12px;
+margin-bottom: 12px;
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+color: #777;
+border-bottom: 1px solid #E2E2E2;
+-webkit-box-shadow: 0 1px 0 white;
+-moz-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 white;
+-webkit-text-shadow: 0 1px 0 rgba(255,255,255,.6);
+-moz-text-shadow: 0 1px 0 rgba(255,255,255,.6);
+text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
+};
+
+
+.placeholding-input input {
+position: absolute;
+top: 0;
+}
+.front-signup .text-input{
+  width: 266px;
+}
+
+.font-card .text-input{
+  height: 20px;
+}
+
+.front-card .text-input {
+border: 1px solid #CCC;
+
+}
+
+.front-signup .signup {
+padding: 0;
+margin: 0;
+}
+
+.signup, .resend-password, .mobile-complete {
+padding: 10px 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+form {
+font-size: 12px;
+margin-bottom: 0;
+}
+
+.front-signup .placeholding-input {
+display: block;
+width: 276px;
+height: 30px;
+margin: 6px auto;
+}
+
+.placeholding-input {
+position: relative;
+overflow: visible;
+}
+
+.front-signup .btn {
+position: absolute;
+right: 12px;
+bottom: 12px;
+height: 30px;
+padding-left: 12px;
+padding-right: 12px;
+margin: 0;
+-webkit-box-shadow: 0 1px 0 white;
+-moz-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 white;
+}
+
+.signup-btn {
+background-color: #FD9A0F;
+background-repeat: repeat-x;
+background-image: -moz-linear-gradient(top,#FEE94F 0,#FD9A0F 100%);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FEE94F),color-stop(100%,#FD9A0F));
+background-image: -webkit-linear-gradient(top,#FEE94F 0,#FD9A0F 100%);
+background-image: -ms-linear-gradient(top,#FEE94F 0,#FD9A0F 100%);
+background-image: -o-linear-gradient(top,#FEE94F 0,#FD9A0F 100%);
+background-image: linear-gradient(top,#FEE94F 0,#FD9A0F 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fee94f',endColorstr='#fd9a0f',GradientType=0);
+border-color: #FA2;
+};
+
+                #BodyBg{ 
+                    background:url('./cricket@2x.jpg') no-repeat;
+                    width: 100%;  
+                    height: 100%;  
+                    position: absolute;  
+                    left: 0px;  
+                    top: 0px;  
+                    z-index: 0; 
+
+                } 
+
+                .stretch { 
+                    width:100%; 
+                    height:100%; 
+                } 
